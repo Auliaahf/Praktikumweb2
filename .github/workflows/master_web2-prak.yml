@@ -24,12 +24,12 @@ jobs:
           php-version: '8.2'
 
       - name: Setup Node.js
-        uses: Actions/setup-node@v3
+        uses: actions/setup-node@v3
         with:
-          php-version: '18'
+          node-version: '18'
 
       - name: Install npm dependencies and build frontend
-        run: 
+        run: |
             npm install
             npm run build
 
