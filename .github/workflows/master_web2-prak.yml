@@ -24,7 +24,7 @@ jobs:
           php-version: '8.2'
 
       - name: Setup Node.js
-        uses: action/setup-node@v3
+        uses: Actions/setup-node@v3
         with:
           php-version: '18'
 
